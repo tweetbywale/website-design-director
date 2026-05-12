@@ -23,13 +23,14 @@ It helps Codex produce sharper website strategy, stronger UI/UX audits, clearer 
 
 ## Installation
 
-### Option 1: Install As A Local Codex Skill
+### Option 1: Install From GitHub
 
-Copy this repository into your Codex skills directory:
+Clone the repository into your Codex skills directory:
 
 ```bash
 mkdir -p ~/.codex/skills
-cp -R website-design-director ~/.codex/skills/website-design-director
+cd ~/.codex/skills
+git clone https://github.com/tweetbywale/website-design-director.git website-design-director
 ```
 
 Then call it in Codex:
@@ -38,12 +39,12 @@ Then call it in Codex:
 Use $website-design-director to audit this homepage and give me a prioritized UI/UX improvement plan.
 ```
 
-### Option 2: Clone From GitHub
+### Option 2: Manual Install
 
-```bash
-cd ~/.codex/skills
-git clone https://github.com/Abdulsamad650/website-design-director.git website-design-director
-```
+1. Download this repository.
+2. Create a folder named `website-design-director` inside `~/.codex/skills`.
+3. Place `SKILL.md` at `~/.codex/skills/website-design-director/SKILL.md`.
+4. Restart Codex if the skill does not appear immediately.
 
 ## Quick Start
 
@@ -133,7 +134,10 @@ website-design-director/
 |-- SKILL.md
 |-- README.md
 |-- LICENSE
+|-- SECURITY.md
 |-- CHANGELOG.md
+|-- .gitignore
+|-- REPOSITORY_AUDIT_REPORT.md
 |-- docs/
 |   |-- INSTALLATION.md
 |   |-- LOCALHOST_AUDIT_EXAMPLE.md
@@ -147,6 +151,10 @@ website-design-director/
 ## Design Philosophy
 
 This skill is intentionally opinionated. It rewards clarity, hierarchy, responsiveness, premium execution, accessibility, and conversion discipline. It avoids vague feedback and pushes Codex to produce recommendations that can actually be implemented.
+
+## Public Sharing Status
+
+This repository has been reviewed for public distribution. It does not include API keys, tokens, local machine paths, environment files, private project data, or hidden workflow credentials.
 
 ## License
 
