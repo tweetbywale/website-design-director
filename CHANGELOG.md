@@ -2,6 +2,9 @@
 
 ## 2026-05-12
 
+- Added repository audit report, security notes, and `.gitignore`.
+- Improved installation instructions for first-time Codex users.
+- Updated README structure and public sharing status.
 - Reworked `SKILL.md` into a public-friendly modular structure.
 - Preserved the original strategy-first intent and critique posture.
 - Added role definition, usage triggers, and core operating principle.
